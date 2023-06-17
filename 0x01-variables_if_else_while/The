@@ -1,9 +1,0 @@
-n this case, you should open the "9-print_comb.c" file and go to line 21. Check for any spaces or tabs at the end of the line and remove them. Once you have removed the trailing whitespace, save the file and recompile it. The error should no longer be present.
-
-It's important to note that Betty is a coding style guide, and adhering to it is a best practice to ensure consistent and readable code. However, the specific guidelines and linting tools may vary depending on the project or organization you are working with.
-
-
-
-
-
-
