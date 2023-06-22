@@ -1,25 +1,22 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_most_numbers - Print the numbers since 0 up to 9
- * Description: Prints the numbers excluding 2 and 4
- * Return: The numbers since 0 up to 9
+ * print_most_numbers -  checks for checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
  */
-
 void print_most_numbers(void)
-
 {
-	int x= 0;
+	int a;
 
-	for (; x <= 9; x++)
+	for (a = 48; a < 58; a++)
 	{
-	if (x == 2 || x == 4)  
+	if (a != 50)
 	{
-	continue;
+	if (a != 52)
+	{
+	_putchar(a);
 	}
-	else
-	{
-	_putchar(x + '0');
 	}
 	}
 	_putchar('\n');
